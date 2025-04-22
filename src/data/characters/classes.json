@@ -1,0 +1,87 @@
+{
+    "Ironbound": {
+        "description": "Forged in war and hardened by grit, Ironbound warriors don’t rely on magic — their steel speaks loud enough.",
+        "core_stats": [
+            "Strength",
+            "Constitution"
+        ],
+        "gear": [
+            "Greatsword or Warhammer",
+            "Chainmail Armor",
+            "Rations, whetstone, binding cloth"
+        ],
+        "perks": [
+            "Weapon Mastery: bonus damage with melee weapons",
+            "Physical Endurance: reduced damage from non-magical attacks",
+            "Intimidating Stance: advantage on physical intimidation checks"
+        ]
+    },
+    "Embervein": {
+        "description": "Their blood burns with ancient magic — beautiful, volatile, and terrifying in equal measure.",
+        "core_stats": [
+            "Charisma",
+            "Dexterity"
+        ],
+        "gear": [
+            "Ember-touched Quarterstaff",
+            "Spellweave Tunic",
+            "Salve Kit for magical backlash"
+        ],
+        "perks": [
+            "Elemental Affinity (Fire): resistance to fire-based attacks",
+            "Volatility: spells may surge in power or misfire unpredictably",
+            "Burning Presence: social encounters shaped by awe, unease, or fear"
+        ]
+    },
+    "Thorncaller": {
+        "description": "Guardians of wild places and ancient groves, Thorncallers shape nature’s fury and mercy alike.",
+        "core_stats": [
+            "Wisdom",
+            "Dexterity"
+        ],
+        "gear": [
+            "Root-entwined Quarterstaff",
+            "Herbalist’s Pouch",
+            "Druid’s Mantle"
+        ],
+        "perks": [
+            "Beast Speech: communicate with animals via shared instinct",
+            "Earthsense Regeneration: regain health near natural terrain",
+            "Rootbind: entangle or hinder enemies using surrounding flora"
+        ]
+    },
+    "Echoblade": {
+        "description": "Silent steps, quick hands, sharper tongue — the Echoblade isn’t here to make friends. Unless it’s to rob them.",
+        "core_stats": [
+            "Dexterity",
+            "Charisma"
+        ],
+        "gear": [
+            "Twin Daggers",
+            "Lockpick & Trap Kit",
+            "Cloak of Veils"
+        ],
+        "perks": [
+            "Stealth Attack: bonus damage when attacking from shadows",
+            "Sleight of Hand: excels in lockpicking and subtle manipulation",
+            "Silvered Tongue: expert in deception, persuasion, and bluffing"
+        ]
+    },
+    "Oathbearer": {
+        "description": "Bound by an inner vow — whether divine, personal, or ancestral — the Oathbearer walks the line between blade and belief.",
+        "core_stats": [
+            "Charisma",
+            "Strength"
+        ],
+        "gear": [
+            "Sword & Shield or Polearm",
+            "Chainmail",
+            "Vow-Marked Emblem"
+        ],
+        "perks": [
+            "Sense of the Oath: detects nearby corruption or dishonor",
+            "Word of Conviction: compels belief or obedience through speech",
+            "Radiant Strike: imbue weapon with purifying energy (limited uses)"
+        ]
+    }
+}

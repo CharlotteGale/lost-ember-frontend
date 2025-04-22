@@ -1,0 +1,29 @@
+{
+    "Faen": {
+        "description": "Attuned to the wilds and whispers between worlds, the Faen carry grace in their blood and secrets in their silence.",
+        "perks": [
+            "Magical resistance",
+            "Heightened perception",
+            "Mild resistance to memory-altering effects"
+        ],
+        "flavor": "Rare and ethereal, Faen are often viewed with awe or unease in civilized lands."
+    },
+    "Kindred": {
+        "description": "Adaptable and ambitious, the Kindred are the most widespread of the mortal peoples — unburdened by magic, but driven by will.",
+        "perks": [
+            "Stat flexibility",
+            "Social familiarity",
+            "Broad skill training options"
+        ],
+        "flavor": "Seen as the default race in many cultures, Kindred often hold positions of power or influence."
+    },
+    "Emberkin": {
+        "description": "Born of fire and bound to legacy, Emberkin possess an intensity that walks the line between brilliance and destruction.",
+        "perks": [
+            "Innate fire resistance",
+            "Charisma-driven interactions",
+            "Magic manifests as hearthfire, bonfire, or wildfire — unpredictable, but powerful"
+        ],
+        "flavor": "Mistrusted in many circles due to their origins, Emberkin often find themselves proving — or embracing — the stories whispered about them."
+    }
+}
