@@ -1,56 +1,56 @@
 import { useState, useEffect } from 'react';
-import RaceCard from '../components/RaceCard.jsx';
-import ClassCard from '../components/ClassCard.jsx';
+import CallingCard from '../components/CallingCard.jsx';
+import OriginCard from '../components/OriginCard.jsx';
 
 import "../assets/styles/CharacterSelect.css";
 
 const CharacterSelect = () => {
-    const [races, setRaces] = useState({});
-    const [classes, setClasses] = useState({});
-    const [selectedRace, setSelectedRace] = useState(null);
-    const [selectedClass, setSelectedClass] = useState(null);
+    const [origins, setOrigins] = useState({});
+    const [callings, setCallings] = useState({});
+    const [selectedOrigin, setSelectedOrigin] = useState(null);
+    const [selectedCalling, setSelectedCalling] = useState(null);
 
     useEffect(() => {
-        fetch("/src/data/characters/races.json")
+        fetch("/src/data/characters/origins.json")
             .then((res) => res.json())
-            .then(setRaces);
+            .then(setOrigins);
         
-        fetch("/src/data/characters/classes.json")
+        fetch("/src/data/characters/callings.json")
             .then((res) => res.json())
-            .then(setClasses);
+            .then(setCallings);
     }, []);
 
     return (
         <div className="character-select">
             <h1 className="title">Choose Your Character</h1>
 
-            {/* Race Selection */}
-            <section className="section" id='race-selection'>
-                <h2 className='subtitle'>Select Your Race</h2>
+            {/* Origin Selection */}
+            <section className="section" id='origin-selection'>
+                <h2 className='subtitle'>Select Your Origin</h2>
                 <div className="card-container">
-                    {Object.entries(races).map(([key, data]) => (
-                        <RaceCard
+                    {Object.entries(origins).map(([key, data]) => (
+                        <OriginCard
                             key={key}
-                            raceKey={key}
-                            raceData={data}
-                            selectedRace={selectedRace}
-                            handleRaceSelect={setSelectedRace}
+                            originKey={key}
+                            originData={data}
+                            selectedOrigin={selectedOrigin}
+                            handleOriginSelect={setSelectedOrigin}
                         />
                     ))}
                 </div>
             </section>
 
-            {/* Class Selection */}
-            <section className="section" id='class-selection'>
-                <h2 className='subtitle'>Select Your Class</h2>
+            {/* Calling Selection */}
+            <section className="section" id='calling-selection'>
+                <h2 className='subtitle'>Select Your Calling</h2>
                 <div className="card-container">
-                    {Object.entries(classes).map(([key, data]) => (
-                        <ClassCard
+                    {Object.entries(callings).map(([key, data]) => (
+                        <CallingCard
                             key={key}
-                            classKey={key}
-                            classData={data}
-                            selectedClass={selectedClass}
-                            handleClassSelect={setSelectedClass}
+                            callingKey={key}
+                            callingData={data}
+                            selectedCalling={selectedCalling}
+                            handleCallingSelect={setSelectedCalling}
                         />
                     ))}
                 </div>
@@ -58,12 +58,12 @@ const CharacterSelect = () => {
 
             {/* Summary */}
             <div className="summary">
-                {selectedRace && selectedClass ? (
+                {selectedOrigin && selectedCalling ? (
                     <p>
-                        You've chosen a <strong>{selectedRace}</strong> <strong>{selectedClass}</strong>.
+                        You've chosen a <strong>{selectedOrigin}</strong> <strong>{selectedCalling}</strong>.
                     </p>
                 ) : (
-                    <p>Please select both a race and a class to continue.</p>
+                    <p>Please select both a Origin and a Calling to continue.</p>
                 )}
             </div>
         </div>
