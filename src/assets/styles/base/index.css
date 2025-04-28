@@ -8,12 +8,22 @@
 
   --font-heading: 'Cinzel', serif;
   --font-body: 'Merriweather', serif;
-  
-  /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
-  font-weight: 400;
+}
 
-  color: var(--color-text);
+html, body {
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  min-height: 100vh;
   background-color: var(--color-bg);
+  color: var(--color-text);
+  font-weight: 400;
+  font-family: var(--font-body);
+  letter-spacing: 0.5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -21,21 +31,12 @@
 }
 
 h1, h2, h3 {
-  font-family: var(--font-heading)
+  font-family: var(--font-heading);
 }
 
-body, p, button, span, small {
+p, span, small, button {
   font-family: var(--font-body);
   letter-spacing: 0.5px;
-}
-
-body {
-  margin: 0;
-  min-width: 320px;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 h1 {
@@ -49,16 +50,16 @@ button {
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
-  font-family: inherit;
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
 button:hover {
   border-color: var(--color-accent);
 }
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
-

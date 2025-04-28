@@ -1,29 +1,41 @@
 {
     "Faen": {
-        "description": "Attuned to the wilds and whispers between worlds, the Faen carry grace in their blood and secrets in their silence.",
+        "description": "Attuned to the wilds and whispers between worlds, the Faen are beings of quiet magic and ancient memory. They carry grace in their blood and secrets in their silence, forever shaped by the echoes of what was.",
+        "racial_mechanic": {
+            "name": "Echoes of the Past",
+            "description": "Faen experience flashes of ancient memory at key moments, providing warnings, insights, or sudden recollections that can unlock hidden paths, reveal dangers early, or auto-succeed on Lore or Magic checks."
+        },
         "perks": [
             "Magical resistance",
-            "Heightened perception",
+            "Heightened perception in natural environments",
             "Mild resistance to memory-altering effects"
         ],
-        "flavor": "Rare and ethereal, Faen are often viewed with awe or unease in civilized lands."
+        "flavor": "Rare and ethereal, Faen are often viewed with awe or unease in civilized lands. Their presence stirs something primal in the hearts of others."
     },
     "Kindred": {
-        "description": "Adaptable and ambitious, the Kindred are the most widespread of the mortal peoples — unburdened by magic, but driven by will.",
+        "description": "Adaptable and ambitious, the Kindred are the most widespread of the mortal peoples — driven by will, shaped by their own choices, and burdened by no ancient destiny but the one they forge themselves.",
+        "racial_mechanic": {
+            "name": "Surge of Will",
+            "description": "Kindred build Willpower by succeeding at difficult skill checks or surviving major challenges. Once enough Willpower is gathered, they can unleash a Surge: instantly succeeding on a future vital check, or turning a failed check into a partial success. In moments of greatest need, the Kindred refuse to fall."
+        },
         "perks": [
-            "Stat flexibility",
-            "Social familiarity",
-            "Broad skill training options"
+            "Stat flexibility at character creation",
+            "Broader access to skills and professions",
+            "Easier social integration across cultures"
         ],
-        "flavor": "Seen as the default race in many cultures, Kindred often hold positions of power or influence."
+        "flavor": "Seen as the common heart of many cities and kingdoms, Kindred often hold positions of power, invention, and leadership — or rebellion."
     },
     "Emberkin": {
-        "description": "Born of fire and bound to legacy, Emberkin possess an intensity that walks the line between brilliance and destruction.",
+        "description": "Forged in ash and ambition, the Emberkin are descendants of those who stole forbidden power from the gods. Their souls burn with volatile sparks of ancient fire, tempering them into beings of brilliance, danger, and unrelenting drive.",
+        "racial_mechanic": {
+            "name": "Burn the Limits",
+            "description": "Once per major encounter, Emberkin can Overburn: automatically succeeding at a powerful action or acting twice in one moment. Afterward, they suffer backlash, weakening their next action or leaving them vulnerable."
+        },
         "perks": [
             "Innate fire resistance",
-            "Charisma-driven interactions",
-            "Magic manifests as hearthfire, bonfire, or wildfire — unpredictable, but powerful"
+            "Charisma-driven social bonuses",
+            "Magic manifests as hearthfire, bonfire, or wildfire — unpredictable but powerful"
         ],
-        "flavor": "Mistrusted in many circles due to their origins, Emberkin often find themselves proving — or embracing — the stories whispered about them."
+        "flavor": "Feared, revered, or exploited, Emberkin walk a path between outcast and icon. Wherever ambition burns brightest, Emberkin are never far behind."
     }
 }
