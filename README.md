@@ -1,12 +1,87 @@
-# React + Vite
+# Lost Ember (Frontend UI)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The front-end interface for **Lost Ember** - a narrative-driven, browser-based RPG focused on player choice, branching paths, and modular storytelling.
 
-Currently, two official plugins are available:
+## 🔧 Tech Stack
+- **React** (via [Vite](https://vitejs.dev/)) for fast, modular UI development
+- **JavaScript (ES6+)** for dynamic state and component logic
+- **HTML/CSS** for styling and layout
+- **JSON-based content** for scalable character and lore data
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎮 Current Features (WIP)
+- Modular, screen-by-screen **character creation flow**
+- Fully responsive **stat and skill picker UI**
+- Live **modifiers, validation, and build summary**
+- Interactive selectors for:    
+    - Origins, Lineages, Callings
+    - Stats, Skills, Cantrips, Dialects
+    - Gear and final spell selection
+- Final summary screen with "Begin" call to action
 
-## Expanding the ESLint configuration
+## 🗺 Project Structure (WIP)
+<pre>
+.
+├── README.md
+├── eslint.config.js
+├── index.html
+├── package-lock.json
+├── package.json
+├── public
+├── src
+│   ├── App.jsx
+│   ├── assets
+│   │   ├── images
+│   │   └── styles
+│   │       ├── App.css
+│   │       ├── CharacterSelect.css
+│   │       ├── LandingPage.css
+│   │       └── base
+│   │           ├── index.css
+│   │           └── typography.css
+│   ├── components
+│   │   ├── characterCreation
+│   │   │   ├── CallingCard.jsx
+│   │   │   ├── CallingPanel.jsx
+│   │   │   ├── OriginCard.jsx
+│   │   │   └── OriginPanel.jsx
+│   │   └── common
+│   │       ├── ChoiceButton.jsx
+│   │       ├── InventoryPanel.jsx
+│   │       └── SceneViewer.jsx
+│   ├── data
+│   │   ├── characters
+│   │   │   ├── callings.json
+│   │   │   ├── lineage.json
+│   │   │   └── origins.json
+│   │   └── scenes
+│   │       └── tavern_intro.json
+│   ├── main.jsx
+│   ├── pages
+│   │   ├── CharacterDetails.jsx
+│   │   ├── CharacterSelect.jsx
+│   │   ├── LandingPage.jsx
+│   │   └── StatSkillSelect.jsx
+│   └── utils
+│       └── storyParser.js
+└── vite.config.js
+</pre>
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✍️ Design Notes
+This frontend is structured for:    
+- Rapid prototyping of text-based RPG interfaces    
+- Full integration with a Flask backend API     
+- Future expansion into persistent session play, combat and Codex lookups
+
+Mockups and component flows designed in **Figma** (available on request).
+
+## 🚧 Status
+**In active development** - Character creation is nearing completion.       
+
+Upcoming tasks:
+- API hookup to `/character/create`
+- Integration with Codex microservice
+- Session manager setup for player progression
+
+## 📃 License
+This is a personal project currently in private development.
+Public contributions may open post-alpha.
