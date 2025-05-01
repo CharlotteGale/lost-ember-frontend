@@ -8,7 +8,10 @@
             "abilities": [
                 "Urban Resonance: Gain advantage when interacting with complex social or political structures.",
                 "Memory of Stone: +2 to Endure rolls while in constructed environments (cities, ruins, fortresses)."
-            ]
+            ],
+            "cantrip": "You know one cantrip of your choice. Lore is your ability for casting it.",
+            "languages": "On top of knowing Common and Mythren, you have devoted time to learn to speak, read, and write one additional dialect",
+            "additional_language": 1
         },
         "Wildborn": {
             "description": "Wildborn Faen are the breath of untamed forests, singing rivers, and endless plains. Their instincts are sharper than memory, rooted in the living pulse of the wild world.",
@@ -18,15 +21,21 @@
             "abilities": [
                 "Rooted Stride: Move through difficult terrain without penalty.",
                 "Beastwhisper: Gain advantage when communicating with or calming natural beasts."
-            ]
+            ],
+            "languages": "You can fluently speak, read, and write, Common, Mythren, and Vaelish.",
+            "additional_language": 0
         },
         "Darkborn": {
             "description": "Darkborn Faen forsook the surface long ago, carving a new existence in the endless Deep Roads. Shadows cling to them like old memories, and their souls thrum with the silence of forgotten things.",
-            "stat_bonuses": {"Presence": 2},
+            "stat_bonuses": {
+                "Presence": 2
+            },
             "abilities": [
                 "Shadowmeld: +2 to Veiling rolls while in dim light or darkness.",
                 "Silent Memory: Immune to basic mind-reading or detection magic probing for surface thoughts."
-            ]
+            ],
+            "languages": "You can fluently speak, read, and write Common, and Velvryn, and can read and write Mythren.",
+            "additional_language": 0
         }
     },
     "Kindred": {
@@ -40,7 +49,9 @@
             "abilities": [
                 "Master’s Edge: Once per encounter, instantly recover a portion of stamina or health, pushing through exhaustion with unshakable will.",
                 "Stonebound: +2 to Resistance rolls against fatigue or environmental effects."
-            ]
+            ],
+            "languages": "You can fluently speak, read, and write Common.",
+            "additional_language": 0
         },
         "Freewalkers": {
             "description": "Freewalkers are the wanderers of the Kindred — traders, scouts, trailbreakers, and mapmakers. They trust in open skies and endless roads, finding freedom where others see only hardship. A Freewalker carries few burdens, but their sharp eyes and steady steps uncover paths others miss. They know that survival lies not in roots, but in movement, adaptability, and the quiet courage to walk into the unknown.",
@@ -52,7 +63,9 @@
             "abilities": [
                 "Trailblazer: Once per encounter, uncover hidden paths or shortcuts others cannot see.",
                 "Wanderer’s Eye: +2 to Detection rolls to notice hidden doors, traps, or trails."
-            ]
+            ],
+            "languages": "You can fluently speak, read, and write Common, and have picked up one additional language during your travels.",
+            "additional_language": 1
         }
     },
     "Emberkin": {
@@ -65,7 +78,9 @@
             "abilities": [
                 "Ashen Grasp: Once per encounter, debuff nearby enemies, lowering their attack power temporarily.",
                 "Dustheart: +2 to saves against poison, disease, or necrotic effects."
-            ]
+            ],
+            "languages": "You can fluently speak, read, and write Common and Velkrith.",
+            "additional_language": 0
         },
         "Brightspark": {
             "description": "Creativity and rebirth pulse in the hearts of Brightsparks. They are architects of change, igniting innovation and fanning hope’s fragile flames. Brightsparks inspire others simply by existing, and their magic flares with dazzling brilliance when called upon.",
@@ -76,7 +91,9 @@
             "abilities": [
                 "Ignite Soul: Once per encounter, boost an ally’s casting speed or skill recovery for a short time.",
                 "Kindling Spirit: +2 to mana regeneration or cooldown recovery outside of Overburn."
-            ]
+            ],
+            "languages": "You can fluently speak, read, and write Common and Velkrith.",
+            "additional_language": 0
         },
         "Wildspark": {
             "description": "Fury and chaos fuel the Wildsparks. They are storms wrapped in skin — unpredictable, dangerous, and brilliant. A Wildspark’s rage is both a weapon and a warning: near death or under pressure, their Spark flares brightest, devastating all in their path.",
@@ -87,7 +104,9 @@
             "abilities": [
                 "Blazing Surge: Once per encounter, unleash an explosive blast around yourself, damaging nearby enemies.",
                 "Smoldering Blood: +2 to critical hit chance when below 50% health."
-            ]
+            ],
+            "languages": "You can fluently speak, read, and write Common and Velkrith.",
+            "additional_language": 0
         }
     }
 }
