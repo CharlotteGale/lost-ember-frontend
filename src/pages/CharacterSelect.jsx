@@ -2,6 +2,8 @@ import { useState, useEffect } from 'react';
 import CallingPanel from '../components/characterCreation/CallingPanel.jsx';
 import OriginPanel from '../components/characterCreation/OriginPanel.jsx';
 
+import FoundationPanel from '../components/characterCreation/FoundationPanel.jsx';
+
 import "../assets/styles/CharacterSelect.css";
 
 const CharacterSelect = () => {
@@ -28,7 +30,7 @@ const CharacterSelect = () => {
                     {activePanel === 'origin' && <OriginPanel />}
                     {/* {activePanel === 'lineage' && <LineagePanel />} */}
                     {activePanel === 'calling' && <CallingPanel />}
-                    {/* {activePanel === 'foundation' && <FoundationPanel />} */}
+                    {activePanel === 'foundation' && <FoundationPanel />}
                 </div>
             </div>
         </div>
