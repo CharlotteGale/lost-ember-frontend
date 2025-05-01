@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import CallingPanel from '../components/characterCreation/CallingPanel.jsx';
 import OriginPanel from '../components/characterCreation/OriginPanel.jsx';
-
+import LineagePanel from '../components/characterCreation/LineagePanel.jsx';
 import FoundationPanel from '../components/characterCreation/FoundationPanel.jsx';
 
 import "../assets/styles/CharacterSelect.css";
@@ -28,7 +28,7 @@ const CharacterSelect = () => {
 
                 <div className='display-area'>
                     {activePanel === 'origin' && <OriginPanel />}
-                    {/* {activePanel === 'lineage' && <LineagePanel />} */}
+                    {activePanel === 'lineage' && <LineagePanel />}
                     {activePanel === 'calling' && <CallingPanel />}
                     {activePanel === 'foundation' && <FoundationPanel />}
                 </div>
