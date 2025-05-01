@@ -1,6 +1,6 @@
-[
+
     {
-        "name": "Soldier",
+        "Soldier": {
         "description": "Since your earliest memories, conflict has been your forge. You were tempered by drill and blade, taught not merely to fight, but to endure — to move when wounded, to think when outnumbered, to strike when hope seemed lost. Whether you served a crowned banner, marched with a free company, or fought for the survival of a forgotten place, war shaped you into what you are: a weapon honed by necessity and will.",
         "tooltip": "In battle, the soul is stripped bare. You learned what remains when fear, hunger, and mercy are burned away. Some see only scars; you see the foundation of strength.",
         "ability_bias": [
@@ -22,8 +22,7 @@
         "additional_languages": "None",
         "additional_equipment": "A set of papers from your time serving stating the rank you achieved, a set of common clothes, and a pouch containing 2 Gold and 4 Silver pieces."
     },
-    {
-        "name": "Laborer",
+    "Laborer": {
         "description": "Before you carved your path into legend, you carved earth, stone, and timber with bare hands and stubborn will. Whether harvesting fields, quarrying rock, hauling fish from deep waters, or forging raw iron into shape, you earned your survival through toil no softer hands could endure. Your strength was not granted, but made — each scar, each callus a silent testament to a life shaped by labor.",
         "tooltip": "To the highborn and the clever, labor is a burden best forgotten. To you, it was the forge of the soul. When the world demanded everything, you answered with sweat and silent endurance. Even now, you carry the patience of stone and the strength of roots — a legacy no blade or spell can easily break.",
         "ability_bias": [
@@ -45,8 +44,7 @@
         "additional_languages": "None",
         "additional_equipment": "A sturdy set of work gloves, a small tool satchel (hammer, chisel, whetstone), and 5 Silver pieces wrapped in twine."
     },
-    {
-        "name": "Outrider",
+    "Outrider": {
         "description": "The untamed lands were your first teacher, and you learned well. You read the wind, moved with the shifting herds, and wove your steps through root and river without faltering. Whether scout, courier, or hunter, you knew the value of speed over strength, of silence over challenge. Even in strange lands, the wilds whisper their patterns to you, and your feet find the hidden paths no map dares to mark.",
         "tooltip": "Civilization builds walls; you learned to move beyond them. In your heart, there are no borders — only currents of wind, stone, and life to follow. Others may call you Outrider, scout, or vagabond, but to the wild places, you have always been kin.",
         "ability_bias": [
@@ -68,8 +66,7 @@
         "additional_languages": "None",
         "additional_equipment": "A hand-stitched travel map marked with personal trails, a weathered compass, and 1 Gold and 2 Silver pieces."
     },
-    {
-        "name": "Scholar",
+    "Scholar": {
         "description": "Your path began in silence and ink, shaped by patient study rather than sword or toil. Whether hidden in ancient cloisters, wandering forgotten archives, or isolated deep within the wilds, you sought truth beyond the reach of common minds. Knowledge became your shelter, your weapon, and your burden — for some truths once uncovered cannot easily be forgotten.",
         "tooltip": "Knowledge is a double-edged gift — it grants power, but demands a price. You followed its call willingly, whether through the halls of the learned, the dust of forgotten scrolls, or the lonely paths of silent contemplation. You learned that understanding is rarely given freely; it must be earned, endured, and sometimes survived.",
         "ability_bias": [
@@ -91,8 +88,7 @@
         "additional_languages": "One additional dialect of your choice.",
         "additional_equipment": "A leather-bound journal filled with arcane notes, an ink quill, a small bottle of black ink, and 3 Gold pieces."
     },
-    {
-        "name": "Wraith",
+    "Wraith": {
         "description": "You learned early that survival favors the quick, the clever, and the invisible. Whether you slipped through alleyways, palmed stolen coin, mimicked voices not your own, or vanished when the knives came out — you adapted. The world taught you its rules were written by those too slow to catch you. Truth is optional. Identity is armor. And trust? Trust is currency, spent only when the cost is life.",
         "tooltip": "Some say the world is cruel. You say it's predictable. You watched it from below — cracks in the walls, lies in the smiles, blood in the gutters. So you slipped between its faults and made yourself sharp, fast, and forgettable. The world remembers heroes and monsters. It forgets ghosts. That’s what keeps you alive.",
         "ability_bias": [
@@ -118,8 +114,7 @@
         "additional_languages": "You know the Hollow Tongue — a covert dialect of silence, double-speak, and symbol used by spies, smugglers, and street-born ghosts. Its meaning lies in pauses, glances, and the words left unsaid.",
         "additional_equipment": "A false identity writ, a small hidden blade, a wax-sealed envelope containing 2 Gold pieces."
     },
-    {
-        "name": "Vowbound",
+    "Vowbound": {
         "description": "You were shaped by legacy — whether born into it, chosen by it, or burdened with it. From your earliest days, you were raised to serve something greater than yourself: a creed, a code, a lineage, or a forgotten oath whispered through generations. You learned the power of presence, the strength of restraint, and the cost of duty. In your bearing and your silence, others see conviction — even when your own faith falters.",
         "tooltip": "Some are born to power. Others are called to it. You walked the path of duty long before the world expected it of you. You learned that loyalty is not obedience, and faith is not blindness. The world may crumble, the gods may fall silent — but you carry the oath, and the oath carries you.",
         "ability_bias": [
@@ -141,4 +136,4 @@
         "additional_languages": "You know the Old Tongue — the ancestral language of vows, still used in sacred rites and high oaths.",
         "additional_equipment": "An oath-bound sigil, a prayer or vow scroll, ceremonial robes, and 2 Gold pieces."
     }
-]
+}
