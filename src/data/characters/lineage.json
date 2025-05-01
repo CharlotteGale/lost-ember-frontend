@@ -2,9 +2,8 @@
     "Faen": {
         "Highborn": {
             "description": "Highborn Faen are shaped by echoes of ancient cities and lost empires. They move with practiced elegance, bearing the memories of civilization's triumphs and failings alike.",
-            "bonuses": {
-                "Lore": 2,
-                "Presence": 1
+            "stat_bonuses": {
+                "Lore": 1
             },
             "abilities": [
                 "Urban Resonance: Gain advantage when interacting with complex social or political structures.",
@@ -13,9 +12,8 @@
         },
         "Wildborn": {
             "description": "Wildborn Faen are the breath of untamed forests, singing rivers, and endless plains. Their instincts are sharper than memory, rooted in the living pulse of the wild world.",
-            "bonuses": {
-                "Grace": 2,
-                "Insight": 1
+            "stat_bonuses": {
+                "Grace": 2
             },
             "abilities": [
                 "Rooted Stride: Move through difficult terrain without penalty.",
@@ -24,10 +22,7 @@
         },
         "Darkborn": {
             "description": "Darkborn Faen forsook the surface long ago, carving a new existence in the endless Deep Roads. Shadows cling to them like old memories, and their souls thrum with the silence of forgotten things.",
-            "bonuses": {
-                "Might": 1,
-                "Presence": 2
-            },
+            "stat_bonuses": {"Presence": 2},
             "abilities": [
                 "Shadowmeld: +2 to Veiling rolls while in dim light or darkness.",
                 "Silent Memory: Immune to basic mind-reading or detection magic probing for surface thoughts."
@@ -37,9 +32,10 @@
     "Kindred": {
         "Forgefolk": {
             "description": "Forgefolk are the Kindred who turned mastery into survival. Builders, smiths, and stone-raisers, they shape the world with calloused hands and sharpened minds. From the soaring arches of new cities to the rough-hewn walls of frontier outposts, the marks of Forgefolk labor are carved into every corner of the world. To be Forgefolk is to trust in endurance, in creation, and in the strength that comes from work well done",
-            "bonuses": {
-                "Endurance": 2,
-                "Crafting": 1
+            "stat_bonuses": {
+                "Might": 1,
+                "Vitality": 1,
+                "Presence": 1
             },
             "abilities": [
                 "Master’s Edge: Once per encounter, instantly recover a portion of stamina or health, pushing through exhaustion with unshakable will.",
@@ -48,9 +44,10 @@
         },
         "Freewalkers": {
             "description": "Freewalkers are the wanderers of the Kindred — traders, scouts, trailbreakers, and mapmakers. They trust in open skies and endless roads, finding freedom where others see only hardship. A Freewalker carries few burdens, but their sharp eyes and steady steps uncover paths others miss. They know that survival lies not in roots, but in movement, adaptability, and the quiet courage to walk into the unknown.",
-            "bonuses": {
-                "Agility": 2,
-                "Perception": 1
+            "stat_bonuses": {
+                "Vitality": 1,
+                "Insight": 1,
+                "Grace": 1
             },
             "abilities": [
                 "Trailblazer: Once per encounter, uncover hidden paths or shortcuts others cannot see.",
@@ -61,9 +58,9 @@
     "Emberkin": {
         "Ashspark": {
             "description": "Marked by endings and decay, Ashsparks embody the slow, relentless pull of dissolution. They are the quiet burn of embers beneath the ash, patient and inevitable. Ashsparks endure where others fall, wielding the powers of rot, fatigue, and the final breath.",
-            "bonuses": {
-                "Endurance": 2,
-                "Resistance": 1
+            "stat_bonuses": {
+                "Vitality": 1,
+                "Presence": 1
             },
             "abilities": [
                 "Ashen Grasp: Once per encounter, debuff nearby enemies, lowering their attack power temporarily.",
@@ -72,9 +69,9 @@
         },
         "Brightspark": {
             "description": "Creativity and rebirth pulse in the hearts of Brightsparks. They are architects of change, igniting innovation and fanning hope’s fragile flames. Brightsparks inspire others simply by existing, and their magic flares with dazzling brilliance when called upon.",
-            "bonuses": {
-                "Presence": 2,
-                "Willpower": 1
+            "stat_bonuses": {
+                "Lore": 1,
+                "Grace": 1
             },
             "abilities": [
                 "Ignite Soul: Once per encounter, boost an ally’s casting speed or skill recovery for a short time.",
@@ -83,9 +80,9 @@
         },
         "Wildspark": {
             "description": "Fury and chaos fuel the Wildsparks. They are storms wrapped in skin — unpredictable, dangerous, and brilliant. A Wildspark’s rage is both a weapon and a warning: near death or under pressure, their Spark flares brightest, devastating all in their path.",
-            "bonuses": {
-                "Might": 2,
-                "Agility": 1
+            "stat_bonuses": {
+                "Might": 1,
+                "Presence": 1
             },
             "abilities": [
                 "Blazing Surge: Once per encounter, unleash an explosive blast around yourself, damaging nearby enemies.",
