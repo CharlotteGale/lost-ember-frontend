@@ -19,3 +19,5 @@ const FoundationCard = ({ foundationKey, foundationData, selectedFoundation, han
         </div>
     )
 }
+
+export default FoundationCard
